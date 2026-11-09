@@ -5,7 +5,7 @@
 //   node a11y_check.mjs <folder-or-file> [...] --out axe-results.json
 //
 // Engine: headless Chromium through Playwright when it is installed
-// (npx playwright install chromium). That is the full check: layout-based
+// (see Setup in the plugin README). That is the full check: layout-based
 // rules such as color-contrast and target-size run, and every page is also
 // loaded at 320 px wide to confirm it reflows with no horizontal scroll
 // (WCAG 1.4.10). Without Chromium it falls back to jsdom: every structural

@@ -50,6 +50,15 @@ Python 3.8 or later is required. The agents run every script through `scripts/ru
 
 ### Install the plugin
 
+From GitHub, in a Claude Code session:
+
+```
+/plugin marketplace add abeasley2020/cp-plugins
+/plugin install course-production-agents@cp-plugins
+```
+
+Restart the session afterward. Run `/plugin marketplace update cp-plugins` to pick up new versions.
+
 - From the Claude plugin directory, once it is listed: add **Course Production Agents** from the directory on claude.ai. It then appears in Claude Code through account sync.
 - From a clone of this repository, for testing: `claude --plugin-dir <path-to>/cp-plugins/plugins/course-production-agents`.
 

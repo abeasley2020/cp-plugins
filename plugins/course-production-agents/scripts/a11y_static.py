@@ -468,7 +468,7 @@ def main():
         inc = sorted({v["id"] for p in axe["pages"] for v in p["incomplete"]})
         if inc:
             L += ["", "## Checks axe could not finish without a browser", "",
-                  "axe marked these rules incomplete: %s. Contrast, focus visibility, target size and reflow are covered above by the CSS cascade check. Run `npx playwright install chromium` and rerun to measure them in a real browser." % ", ".join(inc)]
+                  "axe marked these rules incomplete: %s. Contrast, focus visibility, target size and reflow are covered above by the CSS cascade check. Install the Chromium browser for Playwright (see Setup in the plugin README) and rerun to measure them in a real browser." % ", ".join(inc)]
     L += ["", "## Manual checks still owed before release", "",
           "- Tab through three pages per package in Brightspace and confirm the focus ring is visible on every summary and link.",
           "- Open one page per package at 320 px in the Brightspace mobile app.",
