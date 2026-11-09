@@ -27,7 +27,7 @@
       "name": "course-production-agents",
       "source": "./plugins/course-production-agents",
       "description": "Turns a folder of faculty content into a course map, a media plan, and one Brightspace package per module or week, with infographics that carry full text descriptions.",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "category": "course-production",
       "keywords": [
         "instructional-design",

@@ -69,6 +69,8 @@ Restart the session afterward. Run `/plugin marketplace update cp-plugins` to pi
 - The first build runs `npm install` in `scripts/` if `axe-core` is missing. That downloads the pinned packages in `scripts/package.json` (axe-core, jsdom, and optionally Playwright) from the npm registry. `npx playwright install chromium` downloads a browser for the accessibility checks.
 - It never uploads to Brightspace, Kaltura, SharePoint or any other system, and never emails or messages anyone. You import the zips yourself.
 
+[Privacy](PRIVACY.md): what the plugin reads, stores and sends, and how long anything is kept.
+
 ## Example prompts
 
 - `/build-course "C:\Courses\FNR 210 faculty files"` builds the course map, media plan, topics and one package per module.
