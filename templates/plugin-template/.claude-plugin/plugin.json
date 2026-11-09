@@ -1,0 +1,9 @@
+{
+  "name": "cp-PLUGIN_NAME",
+  "version": "0.1.0",
+  "description": "PLUGIN_DESCRIPTION",
+  "author": {
+    "name": "Purdue University Online Course Production"
+  },
+  "keywords": ["course-production", "PLUGIN_KEYWORD"]
+}
