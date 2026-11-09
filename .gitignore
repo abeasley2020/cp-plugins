@@ -1,0 +1,16 @@
+# Dependencies (none are expected, but keep installs out of the repo)
+node_modules/
+
+# Audit output from the local audit skill suite
+_audit/
+
+# Local-only files
+*.local.json
+.env
+.env.*
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

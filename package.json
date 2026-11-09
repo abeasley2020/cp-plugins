@@ -1,0 +1,16 @@
+{
+  "name": "cp-plugins",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code plugin marketplace for the Purdue University Online Course Production team.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "ci": "node scripts/ci.mjs",
+    "validate": "node scripts/validate-marketplace.mjs",
+    "scan": "node scripts/scan-content.mjs",
+    "test": "node --test scripts/tests/ plugins/*/tests/"
+  }
+}
