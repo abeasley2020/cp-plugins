@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cp-plugins",
+  "owner": {
+    "name": "Purdue University Online Course Production"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for the Purdue University Online Course Production team.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "cp-accessibility",
+      "source": "./plugins/cp-accessibility",
+      "description": "Checks HTML course content against WCAG 2.2 AA and reports each issue with its success criterion.",
+      "version": "0.1.0",
+      "category": "accessibility",
+      "keywords": ["accessibility", "wcag", "html", "brightspace", "course-production"]
+    }
+  ]
+}
