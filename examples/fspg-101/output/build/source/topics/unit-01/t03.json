@@ -1,0 +1,104 @@
+{
+  "purpose": "Trace the five routes contamination travels on a farm so you can spot them on your own operation.",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The five routes"
+    },
+    {
+      "type": "paragraph",
+      "text": [
+        "Produce safety training groups farm hazards into five routes. Every practice in the rest of this course controls one or more of them."
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Water** used for irrigation, sprays, washing, and cleaning.",
+        "**Soil and soil amendments**, especially raw manure and compost that was not fully treated.",
+        "**Animals**, both wild and domestic, that enter growing areas.",
+        "**Workers**, through their hands, their health, and their habits.",
+        "**Equipment, tools, and surfaces**, including harvest bins and packing tables."
+      ],
+      "ordered": true
+    },
+    {
+      "type": "video",
+      "media_id": "M01-V02"
+    },
+    {
+      "type": "video",
+      "media_id": "M01-V03"
+    },
+    {
+      "type": "accordion",
+      "items": [
+        {
+          "summary": "Route 1: water",
+          "body": [
+            "Water touches the crop many times. Surface water such as ponds and streams carries the most risk because animals and runoff can reach it. Module 02 covers water in depth."
+          ]
+        },
+        {
+          "summary": "Route 2: soil and amendments",
+          "body": [
+            "Raw manure can carry E. coli and Salmonella. Compost is safer only when it is treated with documented time and temperature."
+          ]
+        },
+        {
+          "summary": "Route 3: animals",
+          "body": [
+            "Deer, birds, and pets leave feces in fields. You cannot fence out every animal, so the practice is to look, assess, and avoid harvesting near contamination."
+          ]
+        },
+        {
+          "summary": "Route 4: workers",
+          "body": [
+            "Hands carry microbes from restrooms, soil, and animals to the crop. Sick workers are the main source of viruses."
+          ]
+        },
+        {
+          "summary": "Route 5: equipment and surfaces",
+          "body": [
+            "Bins, knives, and tables move microbes from one batch to the next if they are not cleaned and sanitized."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Prevention beats correction",
+      "text": [
+        "Controls applied before harvest do more than anything you can do afterward."
+      ]
+    },
+    {
+      "type": "knowledge_check",
+      "questions": [
+        {
+          "stem": "A grower stacks harvest bins on the ground next to the compost pile. Which two routes does this open?",
+          "options": [
+            "Water and workers",
+            "Soil amendments and equipment",
+            "Animals and water"
+          ],
+          "answer": 1,
+          "rationale": "The compost pile is a soil amendment route, and the bins are equipment that will carry what they touch into the harvest."
+        }
+      ]
+    },
+    {
+      "type": "check_yourself",
+      "text": [
+        "Name one route that is present on your farm today and one change you could make this week to control it."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Instructor slides, Week 1, slides 3 and 4 and speaker notes."
+    }
+  ],
+  "_source": "topics/module-01/t03-five-routes.md"
+}

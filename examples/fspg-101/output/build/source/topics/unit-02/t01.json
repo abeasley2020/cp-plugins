@@ -1,0 +1,81 @@
+{
+  "purpose": "Rank the water sources on your farm by risk so you know where to focus testing and protection.",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Not all water carries the same risk"
+    },
+    {
+      "type": "table",
+      "caption": "Agricultural water sources ranked by contamination risk",
+      "columns": [
+        "Source",
+        "Relative risk",
+        "Why"
+      ],
+      "rows": [
+        [
+          "Municipal or public water",
+          "Lowest",
+          "Treated and tested by the provider"
+        ],
+        [
+          "Groundwater well",
+          "Moderate",
+          "Protected underground, but a damaged or uncapped wellhead lets contamination in"
+        ],
+        [
+          "Surface water: ponds, streams, ditches",
+          "Highest",
+          "Open to animals, runoff, and upstream activity"
+        ]
+      ]
+    },
+    {
+      "type": "video",
+      "media_id": "M02-V01"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How water reaches the crop"
+    },
+    {
+      "type": "paragraph",
+      "text": [
+        "Risk also depends on how the water is applied. Drip irrigation that wets the soil carries less risk than overhead sprinklers that wet the edible part of the plant, especially close to harvest."
+      ]
+    },
+    {
+      "type": "flashcards",
+      "cards": [
+        {
+          "front": "Which water source carries the highest risk, and why?",
+          "back": [
+            "Surface water, because animals, runoff, and upstream activity can all reach it."
+          ]
+        },
+        {
+          "front": "Why does drip irrigation carry less risk than overhead sprinklers?",
+          "back": [
+            "Drip wets the soil, not the edible part of the plant."
+          ]
+        }
+      ],
+      "heading": "Retrieval practice"
+    },
+    {
+      "type": "check_yourself",
+      "text": [
+        "List every water source you use, what you use it for, and how it touches the crop. You will need this list for the activity at the end of this module."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Instructor slides, Week 2, slide 1 and speaker notes."
+    }
+  ],
+  "_source": "topics/module-02/t01-water-sources.md"
+}

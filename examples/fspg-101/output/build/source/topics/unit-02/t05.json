@@ -1,0 +1,75 @@
+{
+  "purpose": "Assess one water source on your farm and choose a testing and protection approach. This worksheet is graded.",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What you will submit"
+    },
+    {
+      "type": "paragraph",
+      "text": [
+        "A completed water source assessment worksheet for one source you use on a crop eaten raw. Submit it in the Brightspace assignment folder named **Water source assessment worksheet**. It is worth 25 points."
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Choose the source with the highest risk from your list in topic 2.1.",
+        "Describe the source, what it is used for, and how it touches the crop.",
+        "List what could contaminate it, using the five routes from Module 01.",
+        "Record your most recent test result, or state that it has not been tested.",
+        "Choose a next step: protect, test, treat, or change how the water is applied. Explain why."
+      ],
+      "heading": "Steps"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A worked example"
+    },
+    {
+      "type": "table",
+      "caption": "Sample worksheet entries for a farm pond",
+      "columns": [
+        "Worksheet field",
+        "Sample answer"
+      ],
+      "rows": [
+        [
+          "Source",
+          "Spring-fed pond, about half an acre"
+        ],
+        [
+          "Use",
+          "Overhead irrigation on lettuce and spinach"
+        ],
+        [
+          "Possible contamination",
+          "Cattle on the neighboring pasture drink from the inlet; geese on the pond"
+        ],
+        [
+          "Last test",
+          "Not tested this season"
+        ],
+        [
+          "Next step",
+          "Switch the greens to drip from the well, test the pond monthly, and fence the inlet"
+        ]
+      ]
+    },
+    {
+      "type": "accordion",
+      "items": [
+        {
+          "summary": "How the worksheet is scored",
+          "body": [
+            "Full credit goes to a worksheet that names a specific source, links each contamination risk to a route, uses a real or clearly missing test result, and gives a next step that matches the risk. The rubric in the assignment folder lists the points for each part."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [],
+  "_source": "topics/module-02/t05-water-assessment.md"
+}

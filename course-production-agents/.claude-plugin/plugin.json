@@ -1,0 +1,16 @@
+{
+  "name": "course-production-agents",
+  "displayName": "Course Production Agents",
+  "version": "0.2.0",
+  "description": "Purdue Online Course Production agents: turn a folder of faculty content into a course map, a media plan, and one Brightspace package per module or week. Purdue branded, WCAG 2.2 AA.",
+  "author": {
+    "name": "Andre Beasley, Course Production, Purdue University Online",
+    "url": "https://github.com/abeasley2020"
+  },
+  "homepage": "https://github.com/abeasley2020/cp-plugins/tree/main/course-production-agents",
+  "repository": "https://github.com/abeasley2020/cp-plugins",
+  "documentationUrl": "https://github.com/abeasley2020/cp-plugins/blob/main/course-production-agents/README.md",
+  "supportUrl": "https://github.com/abeasley2020/cp-plugins/issues",
+  "license": "MIT",
+  "keywords": ["instructional-design", "brightspace", "scorm", "accessibility", "purdue"]
+}

@@ -1,0 +1,238 @@
+{
+  "course_code": "FSPG 101",
+  "notes": [
+    "Nothing is linked in a topic until it is streamed in Kaltura with accurate captions and a transcript. Until then the topic ships without the video block.",
+    "The existing student farm walkthrough opens with live cohort language. Trim or re-record the opening before reuse.",
+    "Faculty asked to film a field handwashing station demo at the student farm. Pair it with the Module 02 field shoot to save a trip."
+  ],
+  "items": [
+    {
+      "id": "M01-V01",
+      "unit": 1,
+      "title": "Why one outbreak can close a small farm",
+      "topic": "t01",
+      "type": "talking-head",
+      "target_minutes": 4,
+      "purpose": "Make the stakes personal before any technical content.",
+      "script_source": "week1 slides, slide 1 speaker notes",
+      "script_status": "needs script from faculty outline",
+      "shoot": "studio",
+      "on_camera": "Instructor",
+      "production_notes": "One camera, lower third with name and title. Cut to two still photos of a small farm stand. No outbreak footage with identifiable people.",
+      "priority": "must have",
+      "existing_asset": "",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "audio_description": "not needed if the photos are described in narration"
+      }
+    },
+    {
+      "id": "M01-V02",
+      "unit": 1,
+      "title": "Five routes of contamination on a farm",
+      "topic": "t03",
+      "type": "animation",
+      "target_minutes": 3,
+      "purpose": "Show all five routes on one farm layout so learners can map them to their own farm.",
+      "script_source": "week1 slides, slide 3 and farm walk diagram",
+      "script_status": "needs script",
+      "shoot": "motion graphics",
+      "on_camera": "None, narrated",
+      "production_notes": "Build on a redrawn farm walk diagram (current file is a placeholder). Each route gets a label and a distinct icon so color is never the only cue. Narration names every label as it appears.",
+      "priority": "must have",
+      "existing_asset": "farm-walk-diagram.png (placeholder)",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "audio_description": "built in: narration names every route and label"
+      }
+    },
+    {
+      "id": "M01-V03",
+      "unit": 1,
+      "title": "Student farm walkthrough",
+      "topic": "t03",
+      "type": "existing-reuse",
+      "target_minutes": 6,
+      "purpose": "Show real routes of contamination on a working farm.",
+      "script_source": "existing recording",
+      "script_status": "existing",
+      "shoot": "none",
+      "on_camera": "Faculty",
+      "production_notes": "Trim the opening line that references the live summer cohort. Check the VTT captions against the audio; they exist but accuracy is not confirmed.",
+      "priority": "nice to have",
+      "existing_asset": "existing-media/student-farm-walkthrough.mp4 and .vtt",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "audio_description": "review: the well and wash shed are pointed at, not named, in two shots"
+      }
+    },
+    {
+      "id": "M02-V01",
+      "unit": 2,
+      "title": "A protected well and an open pond",
+      "topic": "t01",
+      "type": "field-footage",
+      "target_minutes": 4,
+      "purpose": "Let learners see the difference in risk between water sources.",
+      "script_source": "week2 slides, slide 1 notes",
+      "script_status": "needs script",
+      "shoot": "field, student farm or cooperating farm",
+      "on_camera": "Instructor",
+      "production_notes": "B-roll of a capped wellhead, a pond with livestock access, and a municipal hookup. Get a location release.",
+      "priority": "must have",
+      "existing_asset": "",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "audio_description": "not needed if narration names each source on screen"
+      }
+    },
+    {
+      "id": "M02-V02",
+      "unit": 2,
+      "title": "Reading a water test report",
+      "topic": "t02",
+      "type": "screencast",
+      "target_minutes": 5,
+      "purpose": "Walk through a sample lab report line by line.",
+      "script_source": "week2 slides, slide 2 notes",
+      "script_status": "needs script and a sample report",
+      "shoot": "desktop",
+      "on_camera": "Instructor voice only",
+      "production_notes": "Use a de-identified sample report. Zoom in on each value as it is read aloud. Provide the sample report as an accessible PDF or HTML table.",
+      "priority": "must have",
+      "existing_asset": "",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "audio_description": "not needed if every value is read aloud"
+      }
+    },
+    {
+      "id": "M02-V03",
+      "unit": 2,
+      "title": "Checking compost pile temperature",
+      "topic": "t03",
+      "type": "demonstration",
+      "target_minutes": 4,
+      "purpose": "Show how a grower documents time and temperature for treated compost.",
+      "script_source": "week2 slides, slide 3 notes",
+      "script_status": "needs script",
+      "shoot": "field",
+      "on_camera": "Instructor or farm manager",
+      "production_notes": "Close-ups of the thermometer readout. Show the paper log being filled in. Same trip as M02-V01.",
+      "priority": "should have",
+      "existing_asset": "",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "audio_description": "not needed if readings are spoken"
+      }
+    },
+    {
+      "id": "M03-V01",
+      "unit": 3,
+      "title": "Setting up a field handwashing station",
+      "topic": "t02",
+      "type": "demonstration",
+      "target_minutes": 3,
+      "purpose": "Faculty requested demo of a compliant station from parts.",
+      "script_source": "week3 lecture notes, handwashing section",
+      "script_status": "faculty outline",
+      "shoot": "field, student farm",
+      "on_camera": "Instructor",
+      "production_notes": "Overhead shot of the supply layout, then the station in use. Same trip as the Module 02 field shoot.",
+      "priority": "must have",
+      "existing_asset": "",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "audio_description": "not needed if each supply is named as it is placed"
+      }
+    },
+    {
+      "id": "M03-V02",
+      "unit": 3,
+      "title": "When a worker should stay home",
+      "topic": "t01",
+      "type": "talking-head",
+      "target_minutes": 3,
+      "purpose": "Model how to talk with workers about illness reporting.",
+      "script_source": "week3 lecture notes, worker health section",
+      "script_status": "needs script",
+      "shoot": "studio",
+      "on_camera": "Instructor",
+      "production_notes": "Same studio session as M01-V01.",
+      "priority": "should have",
+      "existing_asset": "",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "audio_description": "not needed"
+      }
+    },
+    {
+      "id": "M04-G01",
+      "unit": 4,
+      "title": "Clean, then sanitize",
+      "topic": "t01",
+      "type": "infographic",
+      "target_minutes": 0,
+      "purpose": "One-glance reminder of the order of operations.",
+      "script_source": "reading-cleaning-vs-sanitizing.pdf",
+      "script_status": "existing text",
+      "shoot": "graphic design",
+      "on_camera": "None",
+      "production_notes": "Four numbered steps with real text, not text baked into an image. Printable.",
+      "priority": "should have",
+      "existing_asset": "",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "text_alternative": "Steps rendered as an HTML ordered list in the topic; the graphic is decorative."
+      }
+    },
+    {
+      "id": "M04-V01",
+      "unit": 4,
+      "title": "Filling in the farm plan template",
+      "topic": "t03",
+      "type": "screencast",
+      "target_minutes": 6,
+      "purpose": "Show a completed plan for a sample farm, section by section.",
+      "script_source": "syllabus final project description",
+      "script_status": "needs template first",
+      "shoot": "desktop",
+      "on_camera": "Instructor voice only",
+      "production_notes": "Record after the plan template and rubric are final.",
+      "priority": "must have",
+      "existing_asset": "",
+      "stream_url": "",
+      "captions_verified": false,
+      "accessibility": {
+        "captions": true,
+        "transcript": true,
+        "audio_description": "not needed if each field is read aloud"
+      }
+    }
+  ]
+}

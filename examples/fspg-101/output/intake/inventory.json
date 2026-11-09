@@ -1,0 +1,128 @@
+{
+  "source_folder": "/mnt/attach/project-files/course-agents/sample/faculty-content",
+  "files": [
+    {
+      "path": "FSPG101-syllabus.docx",
+      "ext": ".docx",
+      "bytes": 37687,
+      "kind": "document",
+      "paragraphs": 17,
+      "tables": 1,
+      "text_file": "text/FSPG101-syllabus.docx.txt",
+      "words": 282
+    },
+    {
+      "path": "existing-media/student-farm-walkthrough.mp4",
+      "ext": ".mp4",
+      "bytes": 5951,
+      "kind": "media",
+      "note": "existing faculty media; check captions and whether it can be reused"
+    },
+    {
+      "path": "existing-media/student-farm-walkthrough.vtt",
+      "ext": ".vtt",
+      "bytes": 202,
+      "kind": "captions",
+      "caption_file": true,
+      "text_file": "text/existing-media_student-farm-walkthrough.vtt.txt",
+      "words": 27
+    },
+    {
+      "path": "farm-walk-diagram.png",
+      "ext": ".png",
+      "bytes": 5843,
+      "kind": "image",
+      "note": "needs alt text or a long description if it is used",
+      "ocr_engine": "rapidocr"
+    },
+    {
+      "path": "photo-visitor-rules-sign.jpg",
+      "ext": ".jpg",
+      "bytes": 84667,
+      "kind": "image",
+      "note": "picture of text (scan or photo); OCR text extracted. Check it against the image before quoting.",
+      "ocr_engine": "rapidocr",
+      "ocr_pages": [
+        {
+          "page": 1,
+          "confidence": 0.913,
+          "words": 35
+        }
+      ],
+      "text_file": "text/photo-visitor-rules-sign.jpg.txt",
+      "words": 39
+    },
+    {
+      "path": "reading-cleaning-vs-sanitizing.pdf",
+      "ext": ".pdf",
+      "bytes": 966,
+      "kind": "pdf",
+      "pages": 1,
+      "text_file": "text/reading-cleaning-vs-sanitizing.pdf.txt",
+      "words": 55
+    },
+    {
+      "path": "scanned-handout-sanitation-log.pdf",
+      "ext": ".pdf",
+      "bytes": 290101,
+      "kind": "pdf",
+      "pages": 2,
+      "scanned_pages": [
+        1,
+        2
+      ],
+      "ocr_engine": "rapidocr",
+      "ocr_pages": [
+        {
+          "page": 1,
+          "confidence": 0.919,
+          "words": 112
+        },
+        {
+          "page": 2,
+          "confidence": 0.906,
+          "words": 86
+        }
+      ],
+      "text_file": "text/scanned-handout-sanitation-log.pdf.txt",
+      "words": 204
+    },
+    {
+      "path": "week1-pathogens-and-routes.pptx",
+      "ext": ".pptx",
+      "bytes": 38977,
+      "kind": "slides",
+      "slides": 4,
+      "images": 0,
+      "text_file": "text/week1-pathogens-and-routes.pptx.txt",
+      "words": 157
+    },
+    {
+      "path": "week2-water-and-amendments.pptx",
+      "ext": ".pptx",
+      "bytes": 38922,
+      "kind": "slides",
+      "slides": 4,
+      "images": 0,
+      "text_file": "text/week2-water-and-amendments.pptx.txt",
+      "words": 154
+    },
+    {
+      "path": "week3-lecture-notes.md",
+      "ext": ".md",
+      "bytes": 1014,
+      "kind": "text",
+      "text_file": "text/week3-lecture-notes.md.txt",
+      "words": 171
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "words": 1089,
+    "media": 1,
+    "unreadable": 0,
+    "ocr_pages": 3,
+    "needs_visual_read": 0
+  },
+  "ocr_engine": "rapidocr"
+}

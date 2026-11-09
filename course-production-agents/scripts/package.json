@@ -1,0 +1,16 @@
+{
+  "name": "course-agents-a11y",
+  "private": true,
+  "type": "module",
+  "description": "Accessibility checking for the course production agents",
+  "scripts": {
+    "a11y": "node a11y_check.mjs"
+  },
+  "dependencies": {
+    "axe-core": "4.10.3",
+    "jsdom": "24.1.3"
+  },
+  "optionalDependencies": {
+    "playwright": "1.65.0"
+  }
+}

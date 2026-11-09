@@ -1,0 +1,519 @@
+{
+  "course": {
+    "code": "FSPG 101",
+    "title": "Food Safety for Small-Scale Produce Growers",
+    "college": "College of Agriculture (sample course for testing)",
+    "audience": "Small farm owners, market garden managers, and extension volunteers; no science background assumed",
+    "delivery": "Online, self-paced, on-demand (converted from a live cohort syllabus)",
+    "description": "Learners identify food safety hazards on a produce farm and put practical controls in place, finishing with a one-page farm food safety plan.",
+    "unit_format": "module",
+    "total_minutes": 232,
+    "dwell_seconds": 45
+  },
+  "outcomes": [
+    {
+      "id": "CLO1",
+      "bloom": "Understand",
+      "statement": "Explain how pathogens reach fresh produce and why produce eaten raw carries higher risk."
+    },
+    {
+      "id": "CLO2",
+      "bloom": "Evaluate",
+      "statement": "Assess agricultural water sources and choose an appropriate testing and treatment approach."
+    },
+    {
+      "id": "CLO3",
+      "bloom": "Apply",
+      "statement": "Apply safe handling practices for raw manure and compost on a small farm."
+    },
+    {
+      "id": "CLO4",
+      "bloom": "Create",
+      "statement": "Design worker hygiene, harvest, and cleaning practices that reduce contamination."
+    },
+    {
+      "id": "CLO5",
+      "bloom": "Create",
+      "statement": "Create a written farm food safety plan with records an inspector would accept."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Why produce safety matters",
+      "slug": "why-produce-safety-matters",
+      "minutes": 54,
+      "build": true,
+      "summary": "Learners see why produce eaten raw carries risk, meet the pathogens that matter on a farm, and trace the five routes contamination travels.",
+      "objectives": [
+        {
+          "id": "1.1",
+          "bloom": "Understand",
+          "supports": [
+            "CLO1"
+          ],
+          "statement": "Explain why fresh produce has no kill step between the field and the plate."
+        },
+        {
+          "id": "1.2",
+          "bloom": "Remember",
+          "supports": [
+            "CLO1"
+          ],
+          "statement": "Identify the bacteria and viruses most often linked to produce outbreaks and where each comes from."
+        },
+        {
+          "id": "1.3",
+          "bloom": "Analyze",
+          "supports": [
+            "CLO1",
+            "CLO5"
+          ],
+          "statement": "Trace the five routes of contamination on your own farm."
+        }
+      ],
+      "topics": [
+        {
+          "id": "t01",
+          "title": "Why produce eaten raw is different",
+          "minutes": 10,
+          "objectives": [
+            "1.1"
+          ],
+          "type": "content",
+          "slug": "no-kill-step"
+        },
+        {
+          "id": "t02",
+          "title": "The pathogens that matter on a farm",
+          "minutes": 12,
+          "objectives": [
+            "1.2"
+          ],
+          "type": "content",
+          "slug": "pathogens"
+        },
+        {
+          "id": "t03",
+          "title": "Five routes of contamination",
+          "minutes": 12,
+          "objectives": [
+            "1.3"
+          ],
+          "type": "content",
+          "slug": "five-routes"
+        },
+        {
+          "id": "t04",
+          "title": "Walk your farm",
+          "minutes": 15,
+          "objectives": [
+            "1.3"
+          ],
+          "type": "activity",
+          "slug": "walk-your-farm"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A1",
+          "title": "Walk your farm",
+          "type": "guided field observation with model answer",
+          "graded": false,
+          "where": "In the package; notes carry into the final plan",
+          "objectives": [
+            "1.3"
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "id": "Q1",
+          "title": "Module 01 quiz",
+          "type": "auto-graded quiz, 10 items",
+          "graded": true,
+          "points": 20,
+          "where": "Brightspace Quizzes, outside the package",
+          "objectives": [
+            "1.1",
+            "1.2",
+            "1.3"
+          ]
+        }
+      ],
+      "sources": [
+        "FSPG101-syllabus.docx, outcomes and Week 1 row",
+        "week1-pathogens-and-routes.pptx, slides 1 to 4 and speaker notes"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Water, soil amendments, and animals",
+      "slug": "water-soil-amendments-and-animals",
+      "minutes": 69,
+      "build": true,
+      "summary": "Learners rank water sources by risk, read a water test result, handle manure and compost safely, and decide what to do when animals get into a field.",
+      "objectives": [
+        {
+          "id": "2.1",
+          "bloom": "Evaluate",
+          "supports": [
+            "CLO2"
+          ],
+          "statement": "Rank agricultural water sources by contamination risk and justify the ranking."
+        },
+        {
+          "id": "2.2",
+          "bloom": "Apply",
+          "supports": [
+            "CLO2",
+            "CLO5"
+          ],
+          "statement": "Interpret a generic E. coli water test result and decide on a next step."
+        },
+        {
+          "id": "2.3",
+          "bloom": "Apply",
+          "supports": [
+            "CLO3"
+          ],
+          "statement": "Apply raw manure and compost handling practices, including application intervals and storage."
+        },
+        {
+          "id": "2.4",
+          "bloom": "Evaluate",
+          "supports": [
+            "CLO3"
+          ],
+          "statement": "Decide whether produce near animal intrusion can be harvested."
+        }
+      ],
+      "topics": [
+        {
+          "id": "t01",
+          "title": "Ranking your water sources",
+          "minutes": 12,
+          "objectives": [
+            "2.1"
+          ],
+          "type": "content",
+          "slug": "water-sources"
+        },
+        {
+          "id": "t02",
+          "title": "Reading a water test",
+          "minutes": 12,
+          "objectives": [
+            "2.2"
+          ],
+          "type": "content",
+          "slug": "water-testing"
+        },
+        {
+          "id": "t03",
+          "title": "Raw manure and compost",
+          "minutes": 12,
+          "objectives": [
+            "2.3"
+          ],
+          "type": "content",
+          "slug": "manure-compost"
+        },
+        {
+          "id": "t04",
+          "title": "Wild and domestic animals",
+          "minutes": 8,
+          "objectives": [
+            "2.4"
+          ],
+          "type": "content",
+          "slug": "animals"
+        },
+        {
+          "id": "t05",
+          "title": "Assess your water source",
+          "minutes": 20,
+          "objectives": [
+            "2.1",
+            "2.2"
+          ],
+          "type": "activity",
+          "slug": "water-assessment"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A2",
+          "title": "Water source assessment worksheet",
+          "type": "worksheet",
+          "graded": true,
+          "points": 25,
+          "where": "Brief in the package; submit in the Brightspace assignment folder",
+          "objectives": [
+            "2.1",
+            "2.2"
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "id": "Q2",
+          "title": "Module 02 scenario check",
+          "type": "auto-graded quiz, 6 scenarios",
+          "graded": true,
+          "points": 10,
+          "where": "Brightspace Quizzes, outside the package",
+          "objectives": [
+            "2.3",
+            "2.4"
+          ]
+        }
+      ],
+      "sources": [
+        "FSPG101-syllabus.docx, Week 2 row and grading",
+        "week2-water-and-amendments.pptx, slides 1 to 4 and speaker notes"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Workers, harvest, and packing",
+      "slug": "workers-harvest-and-packing",
+      "minutes": 52,
+      "build": false,
+      "summary": "Learners set worker health and hygiene rules, plan a field handwashing station, and set safe harvest and packing practices.",
+      "objectives": [
+        {
+          "id": "3.1",
+          "bloom": "Apply",
+          "supports": [
+            "CLO4"
+          ],
+          "statement": "Set an illness reporting rule and a training plan for every worker, family and volunteers included."
+        },
+        {
+          "id": "3.2",
+          "bloom": "Create",
+          "supports": [
+            "CLO4"
+          ],
+          "statement": "Plan a handwashing station that meets the course guideline for supplies and distance."
+        },
+        {
+          "id": "3.3",
+          "bloom": "Apply",
+          "supports": [
+            "CLO4"
+          ],
+          "statement": "Apply harvest container and packing area practices that prevent contamination."
+        }
+      ],
+      "topics": [
+        {
+          "id": "t01",
+          "title": "Worker health and illness reporting",
+          "minutes": 10,
+          "objectives": [
+            "3.1"
+          ],
+          "type": "content",
+          "slug": "worker-health-and-illness-reporting"
+        },
+        {
+          "id": "t02",
+          "title": "Handwashing stations in the field",
+          "minutes": 10,
+          "objectives": [
+            "3.2"
+          ],
+          "type": "content",
+          "slug": "handwashing-stations-in-the-field"
+        },
+        {
+          "id": "t03",
+          "title": "Harvest and the packing area",
+          "minutes": 12,
+          "objectives": [
+            "3.3"
+          ],
+          "type": "content",
+          "slug": "harvest-and-the-packing-area"
+        },
+        {
+          "id": "t04",
+          "title": "Plan your handwashing station",
+          "minutes": 15,
+          "objectives": [
+            "3.2"
+          ],
+          "type": "activity",
+          "slug": "plan-your-handwashing-station"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A3",
+          "title": "Plan your handwashing station",
+          "type": "self-check with model answer (replaces the live discussion)",
+          "graded": true,
+          "points": 15,
+          "where": "Brief in the package; submit a photo or sketch in the Brightspace assignment folder",
+          "objectives": [
+            "3.1",
+            "3.2",
+            "3.3"
+          ]
+        }
+      ],
+      "assessments": [],
+      "sources": [
+        "week3-lecture-notes.md",
+        "FSPG101-syllabus.docx, Week 3 row (live discussion converted)",
+        "photo-visitor-rules-sign.jpg, read by OCR (visitor rules for topic 3.3)"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cleaning, records, and your farm plan",
+      "slug": "cleaning-records-and-your-farm-plan",
+      "minutes": 57,
+      "build": false,
+      "summary": "Learners separate cleaning from sanitizing, keep the records an inspector expects, and write their farm food safety plan.",
+      "objectives": [
+        {
+          "id": "4.1",
+          "bloom": "Understand",
+          "supports": [
+            "CLO4"
+          ],
+          "statement": "Distinguish cleaning from sanitizing and sequence them correctly."
+        },
+        {
+          "id": "4.2",
+          "bloom": "Apply",
+          "supports": [
+            "CLO5"
+          ],
+          "statement": "Keep cleaning, water, and training records in a form an inspector would accept."
+        },
+        {
+          "id": "4.3",
+          "bloom": "Create",
+          "supports": [
+            "CLO2",
+            "CLO3",
+            "CLO4",
+            "CLO5"
+          ],
+          "statement": "Write a one-page farm food safety plan for your operation."
+        }
+      ],
+      "topics": [
+        {
+          "id": "t01",
+          "title": "Clean first, then sanitize",
+          "minutes": 12,
+          "objectives": [
+            "4.1"
+          ],
+          "type": "content",
+          "slug": "clean-first-then-sanitize"
+        },
+        {
+          "id": "t02",
+          "title": "Records an inspector will accept",
+          "minutes": 10,
+          "objectives": [
+            "4.2"
+          ],
+          "type": "content",
+          "slug": "records-an-inspector-will-accept"
+        },
+        {
+          "id": "t03",
+          "title": "Write your farm food safety plan",
+          "minutes": 30,
+          "objectives": [
+            "4.2",
+            "4.3"
+          ],
+          "type": "activity",
+          "slug": "write-your-farm-food-safety-plan"
+        }
+      ],
+      "activities": [
+        {
+          "id": "A4",
+          "title": "Farm food safety plan",
+          "type": "final project with template and rubric",
+          "graded": true,
+          "points": 40,
+          "where": "Brief in the package; submit in the Brightspace assignment folder",
+          "objectives": [
+            "4.1",
+            "4.2",
+            "4.3"
+          ]
+        }
+      ],
+      "assessments": [],
+      "sources": [
+        "reading-cleaning-vs-sanitizing.pdf",
+        "scanned-handout-sanitation-log.pdf, pages 1 and 2, read by OCR (what to log daily and common mistakes, for topic 4.2)",
+        "FSPG101-syllabus.docx, Week 4 row and grading"
+      ]
+    }
+  ],
+  "conversion_notes": [
+    "The syllabus is written for a live cohort. The Week 3 Zoom discussion on handwashing stations becomes a self-check with a model answer (Activity 3). Lost: peer feedback on each station. Faculty should confirm the self-check meets the objective.",
+    "Peer review of the final plan on the discussion board is replaced by a rubric and a worked example. Faculty should decide whether a graded instructor review is still offered.",
+    "Week numbers and due dates were removed from module titles so the course can run on demand."
+  ],
+  "gaps": [
+    {
+      "item": "A real farm walk diagram. The file farm-walk-diagram.png in the folder is a placeholder image, not usable art.",
+      "owner": "Faculty",
+      "needed_for": "Module 01, topic 1.3 and media item M01-V02"
+    },
+    {
+      "item": "Faculty review of regulatory references (water rule, raw manure intervals) before release.",
+      "owner": "Faculty",
+      "needed_for": "Modules 02 and 04"
+    },
+    {
+      "item": "Water source assessment worksheet template (the syllabus names it but it is not in the folder).",
+      "owner": "Faculty",
+      "needed_for": "Module 02 activity"
+    },
+    {
+      "item": "Rubric for the farm food safety plan (40 points).",
+      "owner": "Faculty with ID",
+      "needed_for": "Module 04 activity"
+    },
+    {
+      "item": "Quiz item banks for the Module 01 quiz and Module 02 scenario check.",
+      "owner": "Faculty with ID",
+      "needed_for": "Brightspace Quizzes"
+    },
+    {
+      "item": "A blank copy of the harvest sanitation log. The scanned handout explains the log but the form itself is not in the folder.",
+      "owner": "Faculty",
+      "needed_for": "Module 04, topic 4.2"
+    }
+  ],
+  "_sources": {
+    "map": "course-map.md",
+    "media": "media-plan.md",
+    "topics": {
+      "1:t01": "topics/module-01/t01-no-kill-step.md",
+      "1:t02": "topics/module-01/t02-pathogens.md",
+      "1:t03": "topics/module-01/t03-five-routes.md",
+      "1:t04": "topics/module-01/t04-walk-your-farm.md",
+      "2:t01": "topics/module-02/t01-water-sources.md",
+      "2:t02": "topics/module-02/t02-water-testing.md",
+      "2:t03": "topics/module-02/t03-manure-compost.md",
+      "2:t04": "topics/module-02/t04-animals.md",
+      "2:t05": "topics/module-02/t05-water-assessment.md"
+    },
+    "topic_pattern": "topics/module-NN/<topic id>-<short-name>.md"
+  }
+}

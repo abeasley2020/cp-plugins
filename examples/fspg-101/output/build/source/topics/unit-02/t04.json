@@ -1,0 +1,45 @@
+{
+  "purpose": "Decide whether produce near animal intrusion can be harvested.",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Look, assess, act"
+    },
+    {
+      "type": "paragraph",
+      "text": [
+        "No farm can keep out every deer or bird. The practice is to look for signs of animals before harvest, judge how much of the crop is affected, and leave contaminated produce in the field."
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Walk the rows you plan to harvest.",
+        "Look for feces, tracks, and feeding damage.",
+        "Mark a buffer around any feces and do not harvest inside it.",
+        "Record what you found and what you did."
+      ],
+      "heading": "Before each harvest"
+    },
+    {
+      "type": "callout",
+      "label": "Pets count too",
+      "text": [
+        "Farm dogs and barn cats are animals in production areas. Keep them out of fields close to harvest and out of the packing area."
+      ]
+    },
+    {
+      "type": "check_yourself",
+      "text": [
+        "What animal signs have you seen in your fields this season, and what did you do about them?"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Instructor slides, Week 2, slide 4 and speaker notes."
+    }
+  ],
+  "_source": "topics/module-02/t04-animals.md"
+}

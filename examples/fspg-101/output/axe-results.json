@@ -1,0 +1,104 @@
+{
+  "engine": "chromium (playwright)",
+  "pages": [
+    {
+      "file": "build/content/module-01-why-produce-safety-matters/activity-04-walk-your-farm.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 21
+    },
+    {
+      "file": "build/content/module-01-why-produce-safety-matters/topic-00-overview.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 18
+    },
+    {
+      "file": "build/content/module-01-why-produce-safety-matters/topic-01-no-kill-step.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 11
+    },
+    {
+      "file": "build/content/module-01-why-produce-safety-matters/topic-02-pathogens.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 21
+    },
+    {
+      "file": "build/content/module-01-why-produce-safety-matters/topic-03-five-routes.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 11
+    },
+    {
+      "file": "build/content/module-02-water-soil-amendments-and-animals/activity-05-water-assessment.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 21
+    },
+    {
+      "file": "build/content/module-02-water-soil-amendments-and-animals/topic-00-overview.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 18
+    },
+    {
+      "file": "build/content/module-02-water-soil-amendments-and-animals/topic-01-water-sources.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 21
+    },
+    {
+      "file": "build/content/module-02-water-soil-amendments-and-animals/topic-02-water-testing.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 11
+    },
+    {
+      "file": "build/content/module-02-water-soil-amendments-and-animals/topic-03-manure-compost.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 11
+    },
+    {
+      "file": "build/content/module-02-water-soil-amendments-and-animals/topic-04-animals.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 8
+    },
+    {
+      "file": "docs/course-map.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 18
+    },
+    {
+      "file": "docs/media-plan.html",
+      "reflow_320": true,
+      "violations": [],
+      "incomplete": [],
+      "passes": 18
+    }
+  ],
+  "axe_version": "4.10.3",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ]
+}
