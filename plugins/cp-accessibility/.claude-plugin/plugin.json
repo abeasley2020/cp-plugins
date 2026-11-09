@@ -1,0 +1,9 @@
+{
+  "name": "cp-accessibility",
+  "version": "0.1.0",
+  "description": "Checks HTML course content against WCAG 2.2 AA and reports each issue with its success criterion and a fix.",
+  "author": {
+    "name": "Purdue University Online Course Production"
+  },
+  "keywords": ["accessibility", "wcag", "html", "brightspace", "course-production"]
+}
