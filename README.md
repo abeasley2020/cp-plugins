@@ -9,17 +9,25 @@ Each plugin packages a repeatable piece of course production work (an accessibil
 | Plugin | Command | What it does |
 |---|---|---|
 | [cp-accessibility](plugins/cp-accessibility/README.md) | `/cp-accessibility:check <file-or-folder>` | Static WCAG 2.2 AA checks for HTML course content. Reports each finding with its success criterion, level, line, and fix. |
+| [course-production-agents](plugins/course-production-agents/README.md) | `/course-production-agents:build-course <faculty-folder>` | Turns a folder of faculty content into a course map, a media plan, and one Brightspace package (SCORM 1.2 and HTML) per module or week, with infographics that carry full text descriptions. Purdue branded, WCAG 2.2 AA. |
+
+## Example
+
+[`examples/fspg-101`](examples/fspg-101) is a complete course-production-agents run on a fictional four-week course, FSPG 101 (Food Safety for Small-Scale Produce Growers). `faculty-content/` is the input and `output/` is everything the plugin produced. No real faculty material is included.
 
 ## Install
 
-Requirements: Claude Code and Node.js 20 or later (the plugin scripts use Node built-ins only).
+Requirements: Claude Code and Node.js 20 or later (the cp-accessibility scripts use Node built-ins only). course-production-agents also needs Python 3.8 or later; its README lists its setup.
 
 From a Claude Code session, add the marketplace from GitHub, then install the plugin you want:
 
 ```
 /plugin marketplace add <github-owner>/cp-plugins
 /plugin install cp-accessibility@cp-plugins
+/plugin install course-production-agents@cp-plugins
 ```
+
+course-production-agents is also being submitted to the Claude plugin directory, where teammates will be able to add it from claude.ai once it is listed.
 
 `<github-owner>` is the GitHub account or organization that hosts this repository. The marketplace name is `cp-plugins` regardless of where it is hosted.
 
@@ -79,8 +87,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add a plugin from the template
 
 ## Dependencies
 
-None. The scripts and plugins use only Node.js built-ins. CI uses the `actions/checkout` and `actions/setup-node` GitHub Actions.
+The repository scripts and cp-accessibility use only Node.js built-ins. CI uses the `actions/checkout` and `actions/setup-node` GitHub Actions.
+
+course-production-agents is the exception. It needs Python 3.8 or later with the packages in its README, and its first build installs the exact versions pinned in `plugins/course-production-agents/scripts/package.json` (axe-core, jsdom, and optionally Playwright) for its accessibility checks.
 
 ## License
 
-License pending. A license will be added once intellectual property ownership is confirmed. Until then, all rights reserved.
+MIT. See [LICENSE](LICENSE).

@@ -103,6 +103,16 @@ test("plugin names must use the cp- prefix and kebab-case", () => {
   assert.ok(errors.some((e) => e.includes("MyPlugin") && e.includes("cp-")), errors.join("\n"));
 });
 
+test("listed name exceptions pass without the cp- prefix", () => {
+  plugin("course-production-agents");
+  write(
+    ".claude-plugin/marketplace.json",
+    marketplace([{ name: "course-production-agents", source: "./plugins/course-production-agents", description: "Exception.", version: "1.0.0" }])
+  );
+  const { errors } = validateMarketplace(root);
+  assert.ok(!errors.some((e) => e.includes("cp- prefix")), errors.join("\n"));
+});
+
 test("source must be ./plugins/<name>", () => {
   plugin("cp-example");
   write(

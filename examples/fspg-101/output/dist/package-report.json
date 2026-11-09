@@ -1,0 +1,34 @@
+{
+  "packages": [
+    {
+      "unit": "Module 01: Why produce safety matters",
+      "package": "fspg-101-module-01-scorm12.zip",
+      "pages": 5,
+      "kb": 15.5,
+      "manifest_valid": true
+    },
+    {
+      "unit": "Module 01: Why produce safety matters",
+      "package": "fspg-101-module-01-html.zip",
+      "pages": 5,
+      "kb": 13.5,
+      "manifest_valid": null
+    },
+    {
+      "unit": "Module 02: Water, soil amendments, and animals",
+      "package": "fspg-101-module-02-scorm12.zip",
+      "pages": 6,
+      "kb": 17.3,
+      "manifest_valid": true
+    },
+    {
+      "unit": "Module 02: Water, soil amendments, and animals",
+      "package": "fspg-101-module-02-html.zip",
+      "pages": 6,
+      "kb": 15.1,
+      "manifest_valid": null
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

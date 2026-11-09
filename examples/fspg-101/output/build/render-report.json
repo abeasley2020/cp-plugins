@@ -1,0 +1,39 @@
+{
+  "omitted_media": [
+    {
+      "media_id": "M01-V01",
+      "title": "Why one outbreak can close a small farm",
+      "topic": "module-01-why-produce-safety-matters/t01"
+    },
+    {
+      "media_id": "M01-V02",
+      "title": "Five routes of contamination on a farm",
+      "topic": "module-01-why-produce-safety-matters/t03"
+    },
+    {
+      "media_id": "M01-V03",
+      "title": "Student farm walkthrough",
+      "topic": "module-01-why-produce-safety-matters/t03"
+    },
+    {
+      "media_id": "M02-V01",
+      "title": "A protected well and an open pond",
+      "topic": "module-02-water-soil-amendments-and-animals/t01"
+    },
+    {
+      "media_id": "M02-V02",
+      "title": "Reading a water test report",
+      "topic": "module-02-water-soil-amendments-and-animals/t02"
+    },
+    {
+      "media_id": "M02-V03",
+      "title": "Checking compost pile temperature",
+      "topic": "module-02-water-soil-amendments-and-animals/t03"
+    }
+  ],
+  "warnings": [
+    "Module 03: Workers, harvest, and packing has no authored topics yet; no package will be built for it",
+    "Module 04: Cleaning, records, and your farm plan has no authored topics yet; no package will be built for it"
+  ],
+  "errors": []
+}

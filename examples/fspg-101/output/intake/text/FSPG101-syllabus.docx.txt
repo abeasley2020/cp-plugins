@@ -1,0 +1,23 @@
+Food Safety for Small-Scale Produce Growers
+Course code: FSPG 101 (sample course for testing). Instructor: Dr. Jordan Rivera, Department of Food Science (fictional).
+# Course description
+This short online course prepares small farm owners, market garden managers, and extension volunteers to identify food safety hazards on a produce farm and put practical controls in place. It follows the risk areas used in produce safety training: workers, water, soil amendments, harvest and packing, and recordkeeping. Learners finish with a one-page farm food safety plan for their own operation.
+# Learning outcomes
+- Explain how pathogens reach fresh produce and why produce eaten raw carries higher risk.
+- Assess agricultural water sources and choose an appropriate testing and treatment approach.
+- Apply safe handling practices for raw manure and compost on a small farm.
+- Design worker hygiene, harvest, and cleaning practices that reduce contamination.
+- Create a simple written farm food safety plan with records an inspector would accept.
+# Weekly schedule
+# Grading
+- Quiz 1: 20 points
+- Water source assessment worksheet: 25 points
+- Handwashing station discussion: 15 points (live course only)
+- Farm food safety plan: 40 points
+In the live version of this course we discussed handwashing station setups during the Week 3 Zoom session. Your classmates will give feedback on your plan in the discussion board.
+[table 1]
+Week | Topic | Due
+1 | Why produce safety matters; pathogens and routes of contamination | Quiz 1
+2 | Agricultural water and soil amendments | Water source assessment worksheet
+3 | Worker health, hygiene, harvest and packing | Discussion: handwashing station setup
+4 | Cleaning, sanitizing, records, and your farm plan | Final: farm food safety plan

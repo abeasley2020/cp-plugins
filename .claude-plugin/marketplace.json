@@ -15,7 +15,27 @@
       "description": "Checks HTML course content against WCAG 2.2 AA and reports each issue with its success criterion.",
       "version": "0.1.0",
       "category": "accessibility",
-      "keywords": ["accessibility", "wcag", "html", "brightspace", "course-production"]
+      "keywords": [
+        "accessibility",
+        "wcag",
+        "html",
+        "brightspace",
+        "course-production"
+      ]
+    },
+    {
+      "name": "course-production-agents",
+      "source": "./plugins/course-production-agents",
+      "description": "Turns a folder of faculty content into a course map, a media plan, and one Brightspace package per module or week, with infographics that carry full text descriptions.",
+      "version": "0.2.0",
+      "category": "course-production",
+      "keywords": [
+        "instructional-design",
+        "brightspace",
+        "scorm",
+        "accessibility",
+        "course-production"
+      ]
     }
   ]
 }

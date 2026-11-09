@@ -11,6 +11,9 @@ const MARKETPLACE_NAME_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._-]*$/;
 const SEMVER_PATTERN = /^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$/;
 const PLACEHOLDER_PATTERN = /PLUGIN_NAME|PLUGIN_DESCRIPTION|PLUGIN_KEYWORD|REPLACE_ME|TODO:/;
 const RESERVED_PREFIXES = ["claude-", "anthropic-"];
+// Plugins allowed to keep a name without the cp- prefix. course-production-agents
+// was named before the rule and is submitted to the Claude plugin directory under that name.
+const NAME_EXCEPTIONS = new Set(["course-production-agents"]);
 
 function readJson(path) {
   if (!existsSync(path)) return { error: `${path} is missing.` };
@@ -147,7 +150,7 @@ export function validateMarketplace(root) {
       continue;
     }
     const name = entry.name;
-    if (!name || !PLUGIN_NAME_PATTERN.test(name)) {
+    if (!name || !(PLUGIN_NAME_PATTERN.test(name) || NAME_EXCEPTIONS.has(name))) {
       errors.push(`Plugin name "${name}" must be kebab-case with the cp- prefix, for example cp-accessibility.`);
     } else if (RESERVED_PREFIXES.some((p) => name.startsWith(p))) {
       errors.push(`Plugin name "${name}" uses a reserved prefix.`);

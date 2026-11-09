@@ -14,3 +14,9 @@ _audit/
 Thumbs.db
 .vscode/
 .idea/
+
+# Course production build output
+__pycache__/
+.stage/
+*-cp/
+desktop.ini

@@ -7,9 +7,9 @@ This repository is public. Everything in it is visible to anyone, so the rules b
 - No real names. Credit the team ("Purdue University Online Course Production"), never a person.
 - No email addresses, dollar amounts, internal URLs (SharePoint, Brightspace, intranet hosts, private IPs), or credentials of any kind.
 - No em-dashes in any file.
-- No dependencies. Scripts use Node.js built-ins only. If a plugin truly needs a package, open an issue first and list the package and why.
+- No dependencies. Scripts use Node.js built-ins only. If a plugin truly needs a package, open an issue first and list the package and why. course-production-agents is the existing exception: it runs Python scripts and pins its npm packages in its own `scripts/package.json`.
 - Runtime configuration lives in `%USERPROFILE%\.cp-plugins\config.json`, never in the repository.
-- Plugin names start with `cp-` and use kebab-case: `cp-accessibility`, `cp-media-plan`.
+- Plugin names start with `cp-` and use kebab-case: `cp-accessibility`, `cp-media-plan`. The one exception is `course-production-agents`, which was named before this rule and is listed in the Claude plugin directory under that name.
 
 The CI content scan enforces the first three mechanically. Reviewers check the rest.
 
