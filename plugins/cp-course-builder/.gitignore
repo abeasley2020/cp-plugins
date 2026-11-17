@@ -1,0 +1,3 @@
+# Rendered output is rebuilt by cpbuild.py; do not commit it.
+examples/**/build/
+tests/**/build/

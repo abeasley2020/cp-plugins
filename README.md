@@ -10,6 +10,7 @@ Each plugin packages a repeatable piece of course production work (an accessibil
 |---|---|---|
 | [cp-accessibility](plugins/cp-accessibility/README.md) | `/cp-accessibility:check <file-or-folder>` | Static WCAG 2.2 AA checks for HTML course content. Reports each finding with its success criterion, level, line, and fix. |
 | [course-production-agents](plugins/course-production-agents/README.md) | `/course-production-agents:build-course <faculty-folder>` | Turns a folder of faculty content into a course map, a media plan, and one Brightspace package (SCORM 1.2 and HTML) per module or week, with infographics that carry full text descriptions. Purdue branded, WCAG 2.2 AA. |
+| [cp-course-builder](plugins/cp-course-builder/README.md) | `/cp-course-builder:start <faculty-folder>` | Builds Rise 360 style lessons in code from faculty source. Three read-only review agents and the script checks score every module against the CP Course Quality Standard (35 criteria); nothing packages while one fails. SCORM 1.2, WCAG 2.2 AA. Draft 0.1.0. |
 
 ## Example
 
@@ -17,7 +18,7 @@ Each plugin packages a repeatable piece of course production work (an accessibil
 
 ## Install
 
-Requirements: Claude Code and Node.js 20 or later (the cp-accessibility scripts use Node built-ins only). course-production-agents also needs Python 3.8 or later; its README lists its setup.
+Requirements: Claude Code and Node.js 20 or later (the cp-accessibility scripts use Node built-ins only). course-production-agents and cp-course-builder also need Python 3.8 or later; their READMEs list their setup.
 
 From a Claude Code session, add the marketplace from GitHub, then install the plugin you want:
 
@@ -25,6 +26,7 @@ From a Claude Code session, add the marketplace from GitHub, then install the pl
 /plugin marketplace add <github-owner>/cp-plugins
 /plugin install cp-accessibility@cp-plugins
 /plugin install course-production-agents@cp-plugins
+/plugin install cp-course-builder@cp-plugins
 ```
 
 course-production-agents is also being submitted to the Claude plugin directory, where teammates will be able to add it from claude.ai once it is listed.

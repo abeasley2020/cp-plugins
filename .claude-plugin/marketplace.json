@@ -36,6 +36,20 @@
         "accessibility",
         "course-production"
       ]
+    },
+    {
+      "name": "cp-course-builder",
+      "source": "./plugins/cp-course-builder",
+      "description": "Builds Rise 360 style Brightspace lessons in code from faculty source, scored against the CP Course Quality Standard by script checks and three read-only review agents. SCORM 1.2, WCAG 2.2 AA.",
+      "version": "0.1.0",
+      "category": "course-production",
+      "keywords": [
+        "instructional-design",
+        "brightspace",
+        "scorm",
+        "accessibility",
+        "quality-review"
+      ]
     }
   ]
 }
