@@ -1,0 +1,22 @@
+{
+  "name": "cp-course-builder",
+  "version": "0.1.0",
+  "description": "Builds Rise 360 style Brightspace lessons in code from faculty source, scored by three read-only review agents against the CP Course Quality Standard. Purdue branded, WCAG 2.2 AA, SCORM 1.2.",
+  "author": {
+    "name": "Andre Beasley, Course Production, Purdue University Online",
+    "url": "https://github.com/abeasley2020"
+  },
+  "homepage": "https://github.com/abeasley2020/cp-plugins/tree/main/plugins/cp-course-builder",
+  "repository": "https://github.com/abeasley2020/cp-plugins",
+  "documentationUrl": "https://github.com/abeasley2020/cp-plugins/blob/main/plugins/cp-course-builder/README.md",
+  "supportUrl": "https://github.com/abeasley2020/cp-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/abeasley2020/cp-plugins/blob/main/plugins/cp-course-builder/PRIVACY.md",
+  "license": "MIT",
+  "keywords": [
+    "instructional-design",
+    "brightspace",
+    "scorm",
+    "accessibility",
+    "quality-review"
+  ]
+}
