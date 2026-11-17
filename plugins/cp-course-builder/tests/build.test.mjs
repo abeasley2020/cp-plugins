@@ -62,7 +62,8 @@ test("a lesson that breaks house style, feedback and problem-first fails the rig
   const dir = copyModule();
   try {
     const path = join(dir, "lessons", lessonName);
-    let md = readFileSync(path, "utf8");
+    // A Windows checkout has CRLF line endings; the edits below assume LF.
+    let md = readFileSync(path, "utf8").replace(/\r\n/g, "\n");
     md = md.replace(/:::problem[\s\S]*?\n:::\n/, "In this lesson we will cover handwashing.\n\n");
     md = md.replace(/^\s+Why:.*$/m, "");
     md = md.replace("## Hands are the shortest route to the food", "## Hands are the shortest route to the food\n\nGloves fail" + String.fromCharCode(0x2014) + "often.");
@@ -80,7 +81,7 @@ test("package refuses a failing module unless --preview is given", { skip }, () 
   const dir = copyModule();
   try {
     const path = join(dir, "lessons", lessonName);
-    writeFileSync(path, readFileSync(path, "utf8").replace(/^sources:[\s\S]*?(?=^draft:)/m, ""));
+    writeFileSync(path, readFileSync(path, "utf8").replace(/\r\n/g, "\n").replace(/^sources:[\s\S]*?(?=^draft:)/m, ""));
     const refused = run(["package", dir]);
     assert.equal(refused.status, 1, refused.stdout + refused.stderr);
     const preview = run(["package", dir, "--preview"]);
